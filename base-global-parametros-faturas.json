@@ -1,7 +1,7 @@
 {
   "schema": "leitor-faturas-global-rules",
   "version": 4,
-  "updatedAt": "2026-07-08T04:03:27.674Z",
+  "updatedAt": "2026-07-11T22:34:51.891Z",
   "rules": {
     "ignore_terms": [
       "ENCARGOS DE ROTATIVO",
@@ -51,7 +51,8 @@
       "TOTAL DE COMPRAS PARCELADAS",
       "COMPRAS PARCELADAS A VENCER",
       "DATA PREVISTA DE FECHAMENTO",
-      "ENCARGOS DE FINANCIAMENTO"
+      "ENCARGOS DE FINANCIAMENTO",
+      "REV PGTO EM FOLHA"
     ],
     "payroll_terms": [
       "PAGAMENTO DEBITO EM FOLHA",
