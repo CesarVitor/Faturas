@@ -1,7 +1,8 @@
 {
   "schema": "leitor-faturas-global-rules",
-  "version": 4,
-  "updatedAt": "2026-07-11T23:01:23.120Z",
+  "version": 5,
+  "updatedAt": "2026-07-12T21:45:00-03:00",
+  "description": "Base global de parametros objetivos do Leitor de Faturas. Edite este arquivo no GitHub para atualizar todos os computadores que usam a URL raw.",
   "rules": {
     "ignore_terms": [
       "ENCARGOS DE ROTATIVO",
@@ -51,9 +52,7 @@
       "TOTAL DE COMPRAS PARCELADAS",
       "COMPRAS PARCELADAS A VENCER",
       "DATA PREVISTA DE FECHAMENTO",
-      "ENCARGOS DE FINANCIAMENTO",
-      "REV PGTO EM FOLHA",
-      "TARIFA EMISSAO"
+      "ENCARGOS DE FINANCIAMENTO"
     ],
     "payroll_terms": [
       "PAGAMENTO DEBITO EM FOLHA",
@@ -78,6 +77,12 @@
       "PAG BOLETO BANCARIO",
       "PAGAMENTO BOLETO BANCARIO"
     ],
-    "purchase_terms": []
+    "purchase_terms": [],
+    "transaction_block_terms": [
+      "HISTÓRICO DAS DESPESAS",
+      "HISTÓRICO DE LANÇAMENTOS",
+      "FATURA ANTERIOR",
+      "COMPRAS REALIZADAS COM O CARTÃO"
+    ]
   }
 }
