@@ -1,7 +1,7 @@
 {
   "schema": "leitor-faturas-global-rules",
   "version": 5,
-  "updatedAt": "2026-07-13T02:33:48.623Z",
+  "updatedAt": "2026-07-14T02:15:40.372Z",
   "description": "Base global de parâmetros objetivos e blocos reconhecidos pelo Leitor de Faturas.",
   "rules": {
     "ignore_terms": [
@@ -53,7 +53,9 @@
       "COMPRAS PARCELADAS A VENCER",
       "DATA PREVISTA DE FECHAMENTO",
       "ENCARGOS DE FINANCIAMENTO",
-      "TARIFA EMISSAO"
+      "TARIFA EMISSAO",
+      "REVERSAODEINIBICAO",
+      "DEBITO-ENCARGOS S/ATRASO"
     ],
     "payroll_terms": [
       "PAGAMENTO DEBITO EM FOLHA",
