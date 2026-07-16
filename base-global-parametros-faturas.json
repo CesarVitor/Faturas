@@ -57,7 +57,8 @@
       "REVERSAO DE INIBICAO",
       "DEBITO-ENCARGOS S/ATRASO",
       "CREDITO-ENCARGOS S/ATRASO",
-      "REV PGTO EM FOLHA"
+      "REV PGTO EM FOLHA",
+      "LIQUID ROTATIVO"
     ],
     "payroll_terms": [
       "PAGAMENTO DEBITO EM FOLHA",
