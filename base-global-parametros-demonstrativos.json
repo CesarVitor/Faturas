@@ -1,0 +1,124 @@
+{
+  "schema": "leitor-faturas-demonstrativo-rules",
+  "version": 5,
+  "updatedAt": "2026-07-18T04:15:00-03:00",
+  "description": "Parâmetros exclusivos para demonstrativos de operação. Não se aplicam a faturas.",
+  "rules": {
+    "operation_labels": [
+      "Nr. Oper.",
+      "Nº Operação",
+      "Número da operação",
+      "Operação"
+    ],
+    "modality_labels": [
+      "Modalidade",
+      "Modalidade da operação",
+      "Tipo de operação"
+    ],
+    "client_labels": [
+      "Cliente",
+      "Nome do cliente"
+    ],
+    "status_labels": [
+      "Status"
+    ],
+    "base_date_labels": [
+      "Dt. Base",
+      "Data base",
+      "Data-base"
+    ],
+    "due_date_labels": [
+      "DT. VCTO.",
+      "Data de vencimento",
+      "Vencimento"
+    ],
+    "installment_labels": [
+      "PARC.",
+      "Parcela",
+      "Número da parcela"
+    ],
+    "final_value_labels": [
+      "VLR. FINAL",
+      "Valor final",
+      "Valor da parcela"
+    ],
+    "payment_date_labels": [
+      "DT. PGTO",
+      "Data de pagamento",
+      "Dt. pagamento"
+    ],
+    "financing_history_labels": [
+      "HIST. FINANC.",
+      "Histórico financeiro",
+      "Histórico de financiamento"
+    ],
+    "paid_history_terms": [
+      "BAIXA",
+      "BX.ANT.",
+      "PAGO"
+    ],
+    "refinancing_terms": [
+      "REFIN",
+      "REFINANCIAMENTO",
+      "LIQ CTRO - REFIN"
+    ],
+    "renegotiation_terms": [
+      "CONTRATOS RENEGOCIADOS",
+      "RENEGOCIAÇÃO",
+      "DATA DA RENEGOCIAÇÃO"
+    ],
+    "liquidation_history_terms": [
+      "LIQUID",
+      "LIQUIDAÇÃO",
+      "LIQUIDACAO"
+    ],
+    "cession_terms": [
+      "CESSÃO",
+      "CESSAO"
+    ],
+    "portability_terms": [
+      "PORTABILIDADE",
+      "PORTAB"
+    ],
+    "receipt_history_terms": [
+      "RECBTO",
+      "RECEBIMENTO"
+    ],
+    "reemployment_terms": [
+      "REEMPREGO",
+      "REEMP"
+    ],
+    "repossession_terms": [
+      "BUSCA E APREENSÃO",
+      "BUSCA E APREENSAO",
+      "APREENSÃO",
+      "APREENSAO",
+      "BNDU"
+    ],
+    "reversal_terms": [
+      "ESTORNO"
+    ],
+    "previous_contract_labels": [
+      "OPERAÇÃO ORIGINÁRIA DA RENEGOCIAÇÃO",
+      "OPERACAO ORIGINARIA DA RENEGOCIACAO"
+    ],
+    "total_operation_labels": [
+      "Tot. da Oper.",
+      "Total da operação",
+      "Vlr. Operação"
+    ],
+    "total_paid_labels": [
+      "Tot Pago",
+      "Total pago"
+    ],
+    "total_due_labels": [
+      "Tot. a Venc",
+      "Total a vencer"
+    ],
+    "alert_labels": [
+      "Alerta",
+      "Resumo final",
+      "Fim de Impressão"
+    ]
+  }
+}
