@@ -1,7 +1,7 @@
 {
   "schema": "leitor-faturas-global-rules",
   "version": 5,
-  "updatedAt": "2026-07-15T17:52:34.310Z",
+  "updatedAt": "2026-07-21T06:06:38.814Z",
   "description": "Base global de parâmetros objetivos e blocos reconhecidos pelo Leitor de Faturas.",
   "rules": {
     "ignore_terms": [
@@ -58,7 +58,13 @@
       "DEBITO-ENCARGOS S/ATRASO",
       "CREDITO-ENCARGOS S/ATRASO",
       "REV PGTO EM FOLHA",
-      "LIQUID ROTATIVO"
+      "LIQUID ROTATIVO",
+      "DEB PA",
+      "CRED PA",
+      "JUROS DE ATRASO",
+      "ESTORNO DE SAQUE",
+      "DESAGIO DE SAQUE",
+      "CRED. VAL"
     ],
     "payroll_terms": [
       "PAGAMENTO DEBITO EM FOLHA",
