@@ -1,8 +1,8 @@
 {
   "schema": "leitor-faturas-global-rules",
   "version": 5,
-  "updatedAt": "2026-07-21T06:06:38.814Z",
-  "description": "Base global de parâmetros objetivos e blocos reconhecidos pelo Leitor de Faturas.",
+  "updatedAt": "2026-07-23T17:31:05.660Z",
+  "description": "Base global de parâmetros objetivos e blocos reconhecidos pelo Fintrama.",
   "rules": {
     "ignore_terms": [
       "ENCARGOS DE ROTATIVO",
@@ -64,7 +64,8 @@
       "JUROS DE ATRASO",
       "ESTORNO DE SAQUE",
       "DESAGIO DE SAQUE",
-      "CRED. VAL"
+      "CRED. VAL",
+      "EST CRED TEMPORARIO"
     ],
     "payroll_terms": [
       "PAGAMENTO DEBITO EM FOLHA",
