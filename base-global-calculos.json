@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-25T00:00:00-03:00",
+  "calculation_config": {
+    "legal_rate_start": "30/08/2024",
+    "default_index": "none",
+    "series": {
+      "ipca": {"code": "433", "label": "IPCA", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "ipca15": {"code": "7478", "label": "IPCA-15", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "ipcae": {"code": "", "label": "IPCA-E", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "inpc": {"code": "188", "label": "INPC", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "igpm": {"code": "189", "label": "IGP-M", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "igpdi": {"code": "190", "label": "IGP-DI", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "igp10": {"code": "7447", "label": "IGP-10", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "ipc_fipe": {"code": "193", "label": "IPC-Fipe", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "ipc_br": {"code": "191", "label": "IPC-Br", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "ipa_m": {"code": "", "label": "IPA-M", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "ipa_di": {"code": "", "label": "IPA-DI", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "incc_m": {"code": "192", "label": "INCC-M", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "incc_di": {"code": "194", "label": "INCC-DI", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "sinapi_nacional": {"code": "", "label": "SINAPI nacional", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "sinapi_estadual": {"code": "", "label": "SINAPI estadual", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "tr": {"code": "226", "label": "TR", "category": "Correção monetária", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "selic_daily": {"code": "11", "label": "Selic diária", "category": "Taxas financeiras", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "selic": {"code": "4390", "label": "Selic mensal acumulada", "category": "Taxas financeiras", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "selic_meta": {"code": "432", "label": "Selic Meta", "category": "Taxas financeiras", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "cdi": {"code": "12", "label": "CDI/DI", "category": "Taxas financeiras", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "percent_cdi": {"code": "12", "label": "Percentual do CDI", "category": "Taxas financeiras", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "poupanca": {"code": "", "label": "Poupança", "category": "Taxas financeiras", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "ptax_usd": {"code": "", "label": "Dólar PTAX", "category": "Câmbio", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "ptax_eur": {"code": "", "label": "Euro PTAX", "category": "Câmbio", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "other_currency": {"code": "", "label": "Outra moeda", "category": "Câmbio", "source": "Banco Central do Brasil - SGS", "enabled": false, "operation": "compound"},
+      "legal_selic_factor": {"code": "29541", "label": "Fator Selic mensal para cálculo da Taxa Legal", "category": "Taxa Legal", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "legal_ipca_factor": {"code": "29542", "label": "Fator IPCA para cálculo da Taxa Legal", "category": "Taxa Legal", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"},
+      "legal_rate": {"code": "29543", "label": "Taxa Legal mensal", "category": "Taxa Legal", "source": "Banco Central do Brasil - SGS", "enabled": true, "operation": "compound"}
+    },
+    "judicial_models": [
+      {"id": "cjf", "name": "CJF / Justiça Federal", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "tjsp", "name": "TJSP", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "tjpr", "name": "TJPR", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "tjrj", "name": "TJRJ", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "tjmg", "name": "TJMG", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "tribunais_estaduais", "name": "Demais Tribunais estaduais", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "justica_trabalho", "name": "Justiça do Trabalho", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "fazenda_publica", "name": "Fazenda Pública", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "ec_113_2021", "name": "EC 113/2021", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false},
+      {"id": "precatorios_rpv", "name": "Precatórios e RPVs", "rules": [], "interest_rules": [], "fine_percent": 0, "fees_percent": 0, "double_value": false}
+    ]
+  }
+}
