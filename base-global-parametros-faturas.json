@@ -65,7 +65,10 @@
       "ESTORNO DE SAQUE",
       "DESAGIO DE SAQUE",
       "CRED. VAL",
-      "EST CRED TEMPORARIO"
+      "EST CRED TEMPORARIO",
+      "SAQUE PARC R",
+      "SAQUE PARC R$",
+      "SAQUE PARC"
     ],
     "payroll_terms": [
       "PAGAMENTO DEBITO EM FOLHA",
