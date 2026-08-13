@@ -1,8 +1,8 @@
 {
   "schema": "leitor-faturas-global-rules",
   "version": 5,
-  "updatedAt": "2026-07-23T17:31:05.660Z",
-  "description": "Base global de parâmetros objetivos e blocos reconhecidos pelo Fintrama.",
+  "updatedAt": "2026-08-13T19:20:18.237Z",
+  "description": "Base global de parâmetros objetivos e blocos reconhecidos pelo Ultron.",
   "rules": {
     "ignore_terms": [
       "ENCARGOS DE ROTATIVO",
@@ -91,7 +91,8 @@
       "PAGAMENTO BOLETO",
       "PAGAMENTO DE BOLETO",
       "PAG BOLETO BANCARIO",
-      "PAGAMENTO BOLETO BANCARIO"
+      "PAGAMENTO BOLETO BANCARIO",
+      "PAGTO BOLETO RECEBIDO"
     ],
     "purchase_terms": [],
     "transaction_block_terms": [
