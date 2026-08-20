@@ -1,7 +1,7 @@
 {
   "schema": "leitor-faturas-global-rules",
   "version": 5,
-  "updatedAt": "2026-08-13T19:20:18.237Z",
+  "updatedAt": "2026-08-20T15:30:32.392Z",
   "description": "Base global de parâmetros objetivos e blocos reconhecidos pelo Ultron.",
   "rules": {
     "ignore_terms": [
@@ -68,7 +68,9 @@
       "EST CRED TEMPORARIO",
       "SAQUE PARC R",
       "SAQUE PARC R$",
-      "SAQUE PARC"
+      "SAQUE PARC",
+      "SAQUEPARCR$",
+      "PARCELAMENTO A"
     ],
     "payroll_terms": [
       "PAGAMENTO DEBITO EM FOLHA",
